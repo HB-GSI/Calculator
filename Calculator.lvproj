@@ -34,6 +34,7 @@
 			</Item>
 			<Item Name="Actor Framework.html" Type="Document" URL="../documentation/Actor Framework.html"/>
 			<Item Name="Actor Framework Whitepaper.html" Type="Document" URL="../documentation/Actor Framework Whitepaper.html"/>
+			<Item Name="VIP2011_Workshop_AF_Manual_k.docx" Type="Document" URL="../documentation/VIP2011_Workshop_AF_Manual_k.docx"/>
 		</Item>
 		<Item Name="Calculator Launcher.lvlib" Type="Library" URL="../Calculator Launcher/Calculator Launcher.lvlib"/>
 		<Item Name="Calculator.lvlib" Type="Library" URL="../Calculator/Calculator.lvlib"/>
