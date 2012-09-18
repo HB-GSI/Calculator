@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Messages for Calculator" Type="Folder">
+		<Item Name="Display Result Msg.lvclass" Type="LVClass" URL="../Calculator Messages/Display Result Msg/Display Result Msg.lvclass"/>
 		<Item Name="Log Event Msg.lvclass" Type="LVClass" URL="../Log Event Msg/Log Event Msg.lvclass"/>
 	</Item>
 	<Item Name="Calculator.lvclass" Type="LVClass" URL="../Calculator/Calculator.lvclass"/>
