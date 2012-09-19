@@ -41,6 +41,7 @@
 		<Item Name="UPNCalculator Actor.lvlib" Type="Library" URL="../UPNCalculator Actor/UPNCalculator Actor.lvlib"/>
 		<Item Name="UPNCalculatorGUI Actor.lvlib" Type="Library" URL="../UPNCalculatorGUI Actor/UPNCalculatorGUI Actor.lvlib"/>
 		<Item Name="Stack.lvlib" Type="Library" URL="../Stack/Stack.lvlib"/>
+		<Item Name="Preview Stack Msg.lvclass" Type="LVClass" URL="../UPNCalculatorGUI Actor/UPNCalculatorGUI Messages/Preview Stack Msg/Preview Stack Msg.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
