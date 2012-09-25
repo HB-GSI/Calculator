@@ -35,7 +35,9 @@
 			<Item Name="Actor Framework.html" Type="Document" URL="../documentation/Actor Framework.html"/>
 			<Item Name="Actor Framework Whitepaper.html" Type="Document" URL="../documentation/Actor Framework Whitepaper.html"/>
 			<Item Name="VIP2011_Workshop_AF_Manual_k.docx" Type="Document" URL="../documentation/VIP2011_Workshop_AF_Manual_k.docx"/>
+			<Item Name="LVOOP_WS_vip2012.pptx" Type="Document" URL="../documentation/LVOOP_WS_vip2012.pptx"/>
 		</Item>
+		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Calculator Launcher.lvlib" Type="Library" URL="../Calculator Launcher/Calculator Launcher.lvlib"/>
 		<Item Name="Calculator.lvlib" Type="Library" URL="../Calculator/Calculator.lvlib"/>
 		<Item Name="UPNCalculator Actor.lvlib" Type="Library" URL="../UPNCalculator Actor/UPNCalculator Actor.lvlib"/>
@@ -54,7 +56,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -84,7 +85,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
