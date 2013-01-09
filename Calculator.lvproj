@@ -1,6 +1,21 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str">This project contains an introduction to the NI Actor Framework implementing a simple UPN-Calculator
+
+Author: H.Brand@gsi.de
+
+Copyright 2011  GSI Helmholtzzentrum für Schwerionenforschung GmbH
+
+Planckstr.1, 64291 Darmstadt, Germany
+
+Lizenziert unter der EUPL, Version 1.1 oder - sobald diese von der Europäischen Kommission genehmigt wurden - Folgeversionen der EUPL ("Lizenz"); Sie dürfen dieses Werk ausschließlich gemäß dieser Lizenz nutzen.
+
+Eine Kopie der Lizenz finden Sie hier: http://www.osor.eu/eupl
+
+Sofern nicht durch anwendbare Rechtsvorschriften gefordert oder in schriftlicher Form vereinbart, wird die unter der Lizenz verbreitete Software "so wie sie ist", OHNE JEGLICHE GEWÄHRLEISTUNG ODER BEDINGUNGEN - ausdrücklich oder stillschweigend - verbreitet.
+
+Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind dem Lizenztext zu entnehmen.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -34,16 +49,19 @@
 			</Item>
 			<Item Name="Actor Framework.html" Type="Document" URL="../documentation/Actor Framework.html"/>
 			<Item Name="Actor Framework Whitepaper.html" Type="Document" URL="../documentation/Actor Framework Whitepaper.html"/>
-			<Item Name="VIP2011_Workshop_AF_Manual_k.docx" Type="Document" URL="../documentation/VIP2011_Workshop_AF_Manual_k.docx"/>
 			<Item Name="LVOOP_WS_vip2012.pptx" Type="Document" URL="../documentation/LVOOP_WS_vip2012.pptx"/>
+			<Item Name="VIP2011_Workshop_AF_Manual_k.docx" Type="Document" URL="../documentation/VIP2011_Workshop_AF_Manual_k.docx"/>
+			<Item Name="LVOOP_WS_vip2012_e.pptx" Type="Document" URL="../documentation/LVOOP_WS_vip2012_e.pptx"/>
+			<Item Name="VIP2011_Workshop_AF_Manual_e.docx" Type="Document" URL="../documentation/VIP2011_Workshop_AF_Manual_e.docx"/>
 		</Item>
-		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Calculator Launcher.lvlib" Type="Library" URL="../Calculator Launcher/Calculator Launcher.lvlib"/>
 		<Item Name="Calculator.lvlib" Type="Library" URL="../Calculator/Calculator.lvlib"/>
 		<Item Name="UPNCalculator Actor.lvlib" Type="Library" URL="../UPNCalculator Actor/UPNCalculator Actor.lvlib"/>
 		<Item Name="UPNCalculatorGUI Actor.lvlib" Type="Library" URL="../UPNCalculatorGUI Actor/UPNCalculatorGUI Actor.lvlib"/>
 		<Item Name="Stack.lvlib" Type="Library" URL="../Stack/Stack.lvlib"/>
 		<Item Name="UPNCalculatorAdvanced Actor.lvlib" Type="Library" URL="../UPNCalculatorAdvanced Actor/UPNCalculatorAdvanced Actor.lvlib"/>
+		<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
+		<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -85,6 +103,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -138,6 +157,19 @@
 				<Property Name="TgtF_productName" Type="Str">Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5A10077A-E1A4-4DC4-9F06-62153E5D6EC7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+			<Item Name="UPNCalculator Zip" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">UPNCalculator Zip</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{32B636E8-1234-45F3-97CC-23AC9FD376E5}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
+				<Property Name="IncludeProject" Type="Bool">true</Property>
+				<Property Name="Path[0]" Type="Path">../../../../../../tmp/UPNCalculator.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 		</Item>
 	</Item>
