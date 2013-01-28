@@ -5,7 +5,7 @@
 
 Author: H.Brand@gsi.de
 
-Copyright 2011  GSI Helmholtzzentrum für Schwerionenforschung GmbH
+Copyright 2012  GSI Helmholtzzentrum für Schwerionenforschung GmbH
 
 Planckstr.1, 64291 Darmstadt, Germany
 
@@ -62,6 +62,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Item Name="UPNCalculatorAdvanced Actor.lvlib" Type="Library" URL="../UPNCalculatorAdvanced Actor/UPNCalculatorAdvanced Actor.lvlib"/>
 		<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="../EUPL v.1.1 - Lizenz.pdf"/>
 		<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="../EUPL v.1.1 - Lizenz.rtf"/>
+		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
